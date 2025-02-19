@@ -1,0 +1,119 @@
+* {
+  margin: 0%;
+  font-family: "Parkinsans", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+:root {
+  --corUm: #242852;
+  --corDois: #f6f6fa;
+}
+html {
+  background-color: var(--corUm);
+  color: var(--corDois);
+  margin: 4px;
+}
+body {
+  color: var(--corDois);
+  background: linear-gradient(#865cf7, #020957);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  color: var(--corDois);
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 4rem;
+  text-decoration: underline;
+  text-align: justify;
+  transition: 4s ease;
+}
+form {
+  margin: auto;
+  font-size: 1.5rem;
+  padding: 16px;
+  background: linear-gradient(#855cf7b2, #020957b6);
+  border-radius: 4px;
+  height: 420px;
+  width: 360px;
+}
+form:hover {
+  box-shadow: 5px 5px 5px #4633aa;
+  transition: 1.5s ease;
+}
+img {
+  width: 1rem;
+  height: 1.2rem;
+}
+input,
+button {
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin: 10px;
+  padding: 14px;
+  width: -webkit-fill-available;
+  border-radius: 6px;
+}
+button {
+  cursor: pointer;
+  width: -webkit-fill-available;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 16px;
+}
+button:active {
+  opacity: 0.8;
+}
+.recup {
+  margin-left: 3.8rem;
+}
+.clear {
+  font-size: 12px;
+  letter-spacing: 0.2rem;
+  background: transparent;
+  margin-top: 2rem;
+  border: none;
+  border: 1px solid var(--corDois);
+  color: var(--corDois);
+  width: 160px;
+}
+.solid {
+  background: transparent;
+  letter-spacing: 0.2rem;
+  border: none;
+  border: 1px solid var(--corDois);
+  color: var(--corDois);
+}
+.outline {
+  letter-spacing: 0.2rem;
+  background: transparent;
+  color: var(--corDois);
+  border: 1px solid var(--corDois);
+}
+#email:hover {
+  text-shadow: 1px 0px 0px var(--corUm);
+  font-weight: bold;
+}
+#password:hover {
+  text-shadow: 1px 0px 0px var(--corUm);
+  font-weight: bold;
+}
+.outline:hover {
+  background-color: var(--corUm);
+  font-weight: bold;
+}
+.solid:hover {
+  color: var(--corDois);
+  background-color: var(--corUm);
+  font-weight: bold;
+}
+.clear:hover {
+  color: var(--corDois);
+  background-color: var(--corUm);
+  font-weight: bold;
+}
